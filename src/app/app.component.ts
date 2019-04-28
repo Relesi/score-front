@@ -27,7 +27,7 @@ export class MyApp {
     this.pages = [
       { title: 'Profile', component: 'ProfilePage' },
       { title: 'Categorias', component: 'CategoriasPage' },
-      { title: 'Logout', component: '' }
+      { title: 'Logout', component: 'HomePage'}
     ];
 
   }
@@ -41,9 +41,9 @@ export class MyApp {
     });
   }
 
-  openPage(page: {title:string, component: string}) {
-   
-    switch (page.title){
+  openPage(page : {title:string, component:string}) {
+
+    switch (page.title) {
       case 'Logout':
       this.auth.logout();
       this.nav.setRoot('HomePage');
