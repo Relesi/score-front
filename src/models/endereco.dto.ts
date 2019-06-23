@@ -1,6 +1,6 @@
 import { CidadeDTO } from "./cidade.dto";
 
-export interface EnderecoDto{
+export interface EnderecoDTO{
     id: string;
     logradouro: string;
     numero: string;
