@@ -1,8 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { API_CONFIG } from "../../config/api.config";
-import { Observable } from "rxjs/Rx";
-import { CategoriaDTO } from "../../models/categoria.dto";
 import { PeditoDTO } from "../../models/pedido.dto";
 
 @Injectable()

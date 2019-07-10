@@ -1,5 +1,7 @@
 {
   "name": "score-front",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
